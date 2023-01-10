@@ -1,0 +1,43 @@
+body {
+    background: rgb(58,180,156);
+    background: linear-gradient(90deg, rgba(58,180,156,1) 0%, rgba(250,29,253,1) 50%, rgba(252,247,69,1) 100%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border: 5px outset  darkgoldenrod  ;
+    margin: 10px 10px 10px 10px;
+}
+
+.name {
+    color: white;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.name:hover {
+    color: darkgoldenrod;
+}
+.logo{
+    margin-left: 40px;
+}
+
+.block_logo {
+    display: flex;
+    justify-content: center;   
+}
+
+.box {
+    margin: 50px 30% 0px 30% ;
+    background-color: #846285;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+.boxLogin {
+    margin: 50px 0px 50px 0px; 
+}
+
+
+
+
